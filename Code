@@ -5,9 +5,8 @@
 #include "index.h" //Our HTML webpage contents
  
 //SSID and Password of your WiFi router
-const char* ssid = "Circuits4you.com";
-const char* password = "123456789";
- 
+const char* ssid = "";
+const char* password = ""; 
 ESP8266WebServer server(80); //Server on port 80
  
 //===============================================================
